@@ -1,0 +1,3 @@
+node60.cs.binghamton.edu
+node61.cs.binghamton.edu
+node62.cs.binghamton.edu

@@ -1,0 +1,12 @@
+pkill Master
+pkill SecondaryNameNode
+pkill NameNode
+pkill Worker
+pkill JobTracker
+pkill TaskTracker
+pkill DataNode
+rm -rf /tmp/shizir1/*
+rm -rf /var/work/shizir1/hadoop_tmp
+rm -rf /var/work/shizir1/spark-1.6.0-bin-hadoop1/logs/*
+rm -rf /var/work/shizir1/spark-1.6.0-bin-hadoop1/app-*
+/var/work/shizir1/hadoop-1.2.1/bin/hadoop namenode -format
