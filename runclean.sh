@@ -40,6 +40,6 @@ do
 	#FIX command for generating graph
 
 	### ---> move results to public_html
-	mv -r $HIBENCH_HOME/report ~/public_html/report_$timestamp
+	mv $HIBENCH_HOME/report ~/public_html/report_$timestamp
 	chmod -R 755 ~/public_html
 done
